@@ -1,0 +1,12 @@
+2023-03-16 17:51:23 DEBUG ConsumerServiceImpl:26 - NODE: Text message received
+i2023-03-16 17:53:09 DEBUG UpdateProducerImpl:20 - 1
+i2023-03-16 17:53:09 DEBUG ConsumerServiceImpl:26 - NODE: Text message received
+i2023-03-16 17:54:45 DEBUG UpdateProducerImpl:20 - 
+i2023-03-16 17:54:45 DEBUG ConsumerServiceImpl:44 - NODE: Photo message received
+2023-03-17 09:42:43 DEBUG ConsumerServiceImpl:26 - NODE: Text message received
+i2023-03-17 09:49:41 DEBUG ConsumerServiceImpl:26 - NODE: Text message received
+i2023-03-17 09:55:59 DEBUG ConsumerServiceImpl:26 - NODE: Text message received
+i2023-03-17 10:00:01 DEBUG ConsumerServiceImpl:26 - NODE: Text message received
+i2023-03-17 10:00:17 DEBUG ConsumerServiceImpl:44 - NODE: Photo message received
+i2023-03-17 10:00:44 DEBUG ConsumerServiceImpl:38 - NODE: Doc message received
+i
