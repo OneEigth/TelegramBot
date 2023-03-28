@@ -9,4 +9,7 @@ i2023-03-17 09:55:59 DEBUG ConsumerServiceImpl:26 - NODE: Text message received
 i2023-03-17 10:00:01 DEBUG ConsumerServiceImpl:26 - NODE: Text message received
 i2023-03-17 10:00:17 DEBUG ConsumerServiceImpl:44 - NODE: Photo message received
 i2023-03-17 10:00:44 DEBUG ConsumerServiceImpl:38 - NODE: Doc message received
+i2023-03-17 15:02:45 DEBUG ConsumerServiceImpl:44 - NODE: Photo message received
+i2023-03-28 09:50:23 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-28 10:51:49 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
 i
