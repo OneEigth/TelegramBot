@@ -12,4 +12,58 @@ i2023-03-17 10:00:44 DEBUG ConsumerServiceImpl:38 - NODE: Doc message received
 i2023-03-17 15:02:45 DEBUG ConsumerServiceImpl:44 - NODE: Photo message received
 i2023-03-28 09:50:23 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
 i2023-03-28 10:51:49 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-28 12:21:18 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-28 12:21:22 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-28 12:21:28 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-28 12:21:30 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-28 12:21:32 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-28 12:22:11 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-28 12:22:52 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
+i2023-03-28 14:11:51 DEBUG ConsumerServiceImpl:32 - NODE: Doc message received
+i2023-03-28 14:11:57 ERROR MainServiceImpl:79 - oneEight.exceptions.UploadFileException: Bad response by telegram service<301,<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+,[Server:"nginx/1.18.0", Date:"Tue, 28 Mar 2023 08:11:57 GMT", Content-Type:"text/html", Content-Length:"169", Connection:"keep-alive", Location:"https://api.telegram.org/bot6183003994:AAGHhGmfgb5RbpIWVZfImDO4iiNBRKeN3BU/getFile?file_id=BQACAgIAAxkBAANQZCKhR2daxFDrypYaMqGA8iRVYuYAAtUxAAL-xBFJ_kjgLyVuaFYvBA"]>
+i2023-03-28 14:12:09 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
+i2023-03-28 14:13:27 DEBUG ConsumerServiceImpl:32 - NODE: Doc message received
+i2023-03-28 14:13:32 ERROR MainServiceImpl:79 - oneEight.exceptions.UploadFileException: Bad response by telegram service<301,<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+,[Server:"nginx/1.18.0", Date:"Tue, 28 Mar 2023 08:13:32 GMT", Content-Type:"text/html", Content-Length:"169", Connection:"keep-alive", Location:"https://api.telegram.org/bot6183003994:AAGHhGmfgb5RbpIWVZfImDO4iiNBRKeN3BU/getFile?file_id=BQACAgIAAxkBAANWZCKhpwffdkGd80mnr59tErRDP6EAAtcxAAL-xBFJauEbbHzmxQ4vBA"]>
+i2023-03-28 14:16:32 DEBUG ConsumerServiceImpl:32 - NODE: Doc message received
+i2023-03-28 14:16:37 ERROR MainServiceImpl:79 - oneEight.exceptions.UploadFileException: Bad response by telegram service<301,<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+,[Server:"nginx/1.18.0", Date:"Tue, 28 Mar 2023 08:16:37 GMT", Content-Type:"text/html", Content-Length:"169", Connection:"keep-alive", Location:"https://api.telegram.org/bot6183003994:AAGHhGmfgb5RbpIWVZfImDO4iiNBRKeN3BU/getFile?file_id=BQACAgIAAxkBAANZZCKiX22cVji2_iB8mhU_6uBr9BoAAtoxAAL-xBFJXdLZN9HCanYvBA"]>
+i2023-03-28 14:19:29 DEBUG ConsumerServiceImpl:32 - NODE: Doc message received
+i2023-03-28 14:19:35 ERROR MainServiceImpl:79 - oneEight.exceptions.UploadFileException: Bad response by telegram service<301,<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+,[Server:"nginx/1.18.0", Date:"Tue, 28 Mar 2023 08:19:35 GMT", Content-Type:"text/html", Content-Length:"169", Connection:"keep-alive", Location:"https://api.telegram.org/bot6183003994:AAGHhGmfgb5RbpIWVZfImDO4iiNBRKeN3BU/getFile?file_id=BQACAgIAAxkBAANcZCKjELVbEyHmDIK2c6Tzh1NAxBUAAuUxAAL-xBFJagABkGz8X3pPLwQ"]>
+i2023-03-28 14:21:26 DEBUG ConsumerServiceImpl:32 - NODE: Doc message received
+i2023-03-28 14:21:32 ERROR MainServiceImpl:79 - oneEight.exceptions.UploadFileException: Bad response by telegram service<301,<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.18.0</center>
+</body>
+</html>
+,[Server:"nginx/1.18.0", Date:"Tue, 28 Mar 2023 08:21:32 GMT", Content-Type:"text/html", Content-Length:"169", Connection:"keep-alive", Location:"https://api.telegram.org/bot6183003994:AAGHhGmfgb5RbpIWVZfImDO4iiNBRKeN3BU/getFile?file_id=BQACAgIAAxkBAANfZCKjhWxKG9Ep2VTXubQ912tTwAQAAuwxAAL-xBFJsoJ1s7jLHaMvBA"]>
+i2023-03-28 14:28:06 DEBUG ConsumerServiceImpl:32 - NODE: Doc message received
 i
