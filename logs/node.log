@@ -66,4 +66,8 @@ i2023-03-28 14:21:32 ERROR MainServiceImpl:79 - oneEight.exceptions.UploadFileEx
 </html>
 ,[Server:"nginx/1.18.0", Date:"Tue, 28 Mar 2023 08:21:32 GMT", Content-Type:"text/html", Content-Length:"169", Connection:"keep-alive", Location:"https://api.telegram.org/bot6183003994:AAGHhGmfgb5RbpIWVZfImDO4iiNBRKeN3BU/getFile?file_id=BQACAgIAAxkBAANfZCKjhWxKG9Ep2VTXubQ912tTwAQAAuwxAAL-xBFJsoJ1s7jLHaMvBA"]>
 i2023-03-28 14:28:06 DEBUG ConsumerServiceImpl:32 - NODE: Doc message received
+i2023-03-28 15:21:30 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
+i2023-03-28 17:03:24 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
+i2023-03-28 17:03:53 DEBUG ConsumerServiceImpl:32 - NODE: Doc message received
+i2023-03-28 17:07:32 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
 i

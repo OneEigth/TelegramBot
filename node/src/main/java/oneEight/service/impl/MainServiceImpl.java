@@ -4,12 +4,14 @@ import lombok.extern.log4j.Log4j;
 import oneEight.dao.AppUserDao;
 import oneEight.dao.RawDataDao;
 import oneEight.entity.AppDocument;
+import oneEight.entity.AppPhoto;
 import oneEight.entity.AppUser;
 import oneEight.entity.RawData;
 import oneEight.exceptions.UploadFileException;
 import oneEight.service.FileService;
 import oneEight.service.MainService;
 import oneEight.service.ProducerService;
+import oneEight.service.enums.LinkType;
 import oneEight.service.enums.ServiceCommands;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -73,7 +75,8 @@ class MainServiceImpl implements MainService {
         }
         try{
             AppDocument doc = fileService.processDoc(update.getMessage());
-            var answer = "Ваш документ успешно получен" + ", для скачивания нажмите на ссылку: http://test.kz/get-doc/";
+            String link = fileService.generateLink(doc.getId(), LinkType.GET_DOC);
+            var answer = "Ваш документ успешно получен" + ", для скачивания нажмите на ссылку: " + link;
             sendAnswer(chatId, answer);
         }catch (UploadFileException e){
             log.error(e);
@@ -90,9 +93,17 @@ class MainServiceImpl implements MainService {
         if(isNotAllowToSendContent(chatId, appUser)) {
             return;
         }
-        // TODO добавить сохранение фото
-        var answer = "Ваше фото успешно получен, для скачивания нажмите на ссылку: http://test.kz/get-photo/888";
-        sendAnswer(chatId, answer);
+        try {
+            AppPhoto photo = fileService.processPhoto(update.getMessage());
+            String link = fileService.generateLink(photo.getId(), LinkType.GET_PHOTO);
+            var answer = "Ваше фото успешно получено" + ", для скачивания нажмите на ссылку: " + link;
+            sendAnswer(chatId, answer);
+        }catch (UploadFileException e){
+            log.error(e);
+            String error = "Не удалось загрузить фото! Попробуйте еще раз";
+            sendAnswer(chatId, error);
+        }
+
     }
     private boolean isNotAllowToSendContent(Long chatId, AppUser appUser) {
         var userState = appUser.getState();
