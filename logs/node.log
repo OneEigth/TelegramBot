@@ -70,4 +70,12 @@ i2023-03-28 15:21:30 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
 i2023-03-28 17:03:24 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
 i2023-03-28 17:03:53 DEBUG ConsumerServiceImpl:32 - NODE: Doc message received
 i2023-03-28 17:07:32 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
+2023-03-29 15:01:55 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-29 15:02:20 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-29 15:02:37 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-29 15:02:42 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-29 15:02:45 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-29 15:02:50 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-29 15:03:53 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
+i2023-03-29 18:00:54 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
 i
