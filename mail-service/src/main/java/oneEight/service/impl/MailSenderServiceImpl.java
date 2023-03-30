@@ -1,7 +1,7 @@
 package oneEight.service.impl;
 
-import oneEight.Dto.MailParams;
 import oneEight.service.MailSenderService;
+import oneEight.utils.dto.MailParams;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -19,6 +19,7 @@ public class MailSenderServiceImpl implements MailSenderService {
         this.javaMailSender = javaMailSender;
     }
 
+
     @Override
     public void sendMail(MailParams mailParams) {
         var subject = "Активация учетной записи";
@@ -30,7 +31,6 @@ public class MailSenderServiceImpl implements MailSenderService {
         mailMessage.setTo(emailTo);
         mailMessage.setSubject(subject);
         mailMessage.setText(massageBody);
-
         javaMailSender.send(mailMessage);
     }
 

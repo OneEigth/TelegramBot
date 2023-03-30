@@ -1,7 +1,7 @@
 package oneEight.controller;
 
-import oneEight.Dto.MailParams;
 import oneEight.service.MailSenderService;
+import oneEight.utils.dto.MailParams;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,6 +14,7 @@ public class MailController {
     public MailController(MailSenderService mailSenderService) {
         this.mailSenderService = mailSenderService;
     }
+
     @PostMapping("/send")
     public ResponseEntity<?> sendActivationMail(@RequestBody MailParams mailParams) {
         mailSenderService.sendMail(mailParams);

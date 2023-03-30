@@ -1,6 +1,6 @@
 package oneEight.service;
 
-import oneEight.Dto.MailParams;
+import oneEight.utils.dto.MailParams;
 
 public interface MailSenderService {
     void sendMail(MailParams mailParams);

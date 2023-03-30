@@ -78,4 +78,59 @@ i2023-03-29 15:02:45 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
 i2023-03-29 15:02:50 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
 i2023-03-29 15:03:53 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
 i2023-03-29 18:00:54 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 11:23:59 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
+i2023-03-30 11:24:07 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 11:24:14 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 11:24:14 ERROR AppUserServiceImpl:54 - Invalid email: fdsfsdas
+ijavax.mail.internet.AddressException: Missing final '@domain' in string ``fdsfsdas''
+	at javax.mail.internet.InternetAddress.checkAddress(InternetAddress.java:915)
+	at javax.mail.internet.InternetAddress.validate(InternetAddress.java:856)
+	at oneEight.service.impl.AppUserServiceImpl.setEmail(AppUserServiceImpl.java:52)
+	at oneEight.service.impl.MainServiceImpl.processTextMessage(MainServiceImpl.java:59)
+	at oneEight.service.impl.ConsumerServiceImpl.consumeTextMessageUpdate(ConsumerServiceImpl.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:77)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:263)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandlerAndProcessResult(MessagingMessageListenerAdapter.java:209)
+	at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:148)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1670)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1589)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1577)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:1568)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1512)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:994)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:941)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$1600(SimpleMessageListenerContainer.java:85)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.mainLoop(SimpleMessageListenerContainer.java:1319)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1225)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-03-30 11:24:28 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 11:24:29 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 11:24:48 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 11:24:50 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 11:25:22 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 11:28:25 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
+i2023-03-30 11:28:28 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 11:28:39 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 11:28:39 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 12:07:57 DEBUG ConsumerServiceImpl:32 - NODE: Doc message received
+i2023-03-30 12:08:04 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 12:08:19 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 12:08:19 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 12:23:32 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
+i2023-03-30 12:23:34 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 12:23:44 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 12:23:45 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 12:38:03 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
+i2023-03-30 12:38:11 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 12:38:25 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 12:38:26 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 12:53:17 DEBUG ConsumerServiceImpl:39 - NODE: Photo message received
+i2023-03-30 12:53:19 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
+i2023-03-30 12:53:31 DEBUG ConsumerServiceImpl:23 - NODE: Text message received
 i
